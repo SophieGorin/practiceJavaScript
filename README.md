@@ -1,30 +1,32 @@
-# User Table Application
+# Приложение "Таблица пользователей"
 
-A React application that displays user data in a table with sorting, filtering, and pagination capabilities.
+React-приложение для отображения данных пользователей в таблице с возможностями сортировки, фильтрации и постраничной навигации.
 
-## Features
+## Возможности
 
-- Display user data in a responsive table
-- Sort by any column (ascending/descending/none)
-- Filter users by various fields
-- Pagination with configurable items per page
-- Detailed user view in modal
-- Resizable table columns
-- Error handling for API requests
+- Отображение данных пользователей в адаптивной таблице
+- Сортировка по любому столбцу (по возрастанию/убыванию/без сортировки)
+- Фильтрация пользователей по различным полям
+- Постраничная навигация с настройкой количества элементов на странице
+- Подробный просмотр информации о пользователе в модальном окне
+- Возможность изменения ширины столбцов таблицы
+- Обработка ошибок при запросах к API
 
-## Installation
+## Установка
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+1. Клонируйте репозиторий
+2. Установите зависимости: `npm install`
+3. Запустите сервер разработки: `npm start`
 
-## Technologies Used
+## Используемые технологии
 
 - React 18
-- Fetch API for HTTP requests
-- re-resizable for column resizing
-- CSS for styling
+- Fetch API для HTTP-запросов
+- Библиотека re-resizable для изменения ширины столбцов
+- CSS для стилизации
 
-## API Used
+## Используемое API
 
-The application uses the [DummyJSON](https://dummyjson.com/docs/users) API to fetch user data.
+Приложение использует [DummyJSON](https://dummyjson.com/docs/users) API для получения данных о пользователях.
+
+
